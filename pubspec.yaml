@@ -1,0 +1,51 @@
+name: car_online
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  url_launcher: ^6.0.13
+  cached_network_image: ^3.1.0+1
+  flutter_svg: ^1.0.1
+  flutter_vector_icons: ^1.0.0 #https://github.com/git-touch/flutter-vector-icons
+  sensors: ^2.0.3
+  flare_flutter: ^3.0.2
+  shared_preferences: ^2.0.8
+  eventify: ^1.0.0
+  #webview_flutter: ^2.3.1
+  carousel_slider: ^4.0.0
+  material_design_icons_flutter: ^5.0.6595
+  image_picker: ^0.8.4+4
+  #google_maps_flutter: ^2.1.1
+  mask_text_input_formatter: ^2.1.0
+  story_view: ^0.13.2
+  video_player: ^2.2.16
+  map: ^1.0.0
+  yandex_mapkit: ^2.0.1
+  # MapKitFactory.getInstance().createTrafficLayer(mapView.getMapWindow()).setTrafficVisible(true);
+  # to pub.dartlang.org\yandex_mapkit-2.0.2\android\src\main\java\com\unact\yandexmapkit\YandexMapController.java 94 line
+  flutter_webview_plugin: ^0.4.0
+  flutter_weather_bg: ^2.8.2
+  youtube_player_flutter: ^8.0.0
+  location: ^4.3.0
+  dio: ^4.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/img/
+    - assets/video/
